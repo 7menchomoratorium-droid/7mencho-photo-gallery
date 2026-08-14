@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <title>七面鳥モラトリアム PHOTO GALLERY</title>
+  <meta name="description" content="七面鳥モラトリアム公式フォトギャラリー">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <span class="brand-en">7MENCHO MORATORIUM</span>
+      <strong>PHOTO GALLERY</strong>
+      <span class="brand-ja">七面鳥モラトリアム 写真館</span>
+    </a>
+  </header>
+
+  <main id="app" class="wrap">
+    <div class="loading">読み込み中…</div>
+  </main>
+
+  <footer>© 7MENCHO MORATORIUM</footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="closeBtn" class="icon-btn close" aria-label="閉じる">×</button>
+    <button id="prevBtn" class="icon-btn prev" aria-label="前の写真">‹</button>
+    <img id="lightboxImg" alt="">
+    <div id="caption"></div>
+    <button id="nextBtn" class="icon-btn next" aria-label="次の写真">›</button>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
