@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "events": [
+    {
+      "id": "2026-08-13-yokohama-baysis",
+      "date": "2026-08-13",
+      "date_display": "2026.08.13",
+      "venue": "横浜BAYSIS",
+      "gallery": "public/2026-08-13-yokohama-baysis/photos.json"
+    }
+  ]
+}
