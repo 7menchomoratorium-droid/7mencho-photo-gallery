@@ -6,7 +6,11 @@
       "date": "2026-08-13",
       "date_display": "2026.08.13",
       "venue": "横浜BAYSIS",
-      "gallery": "public/2026-08-13-yokohama-baysis/photos.json"
+      "gallery": "public/2026-08-13-yokohama-baysis/photos.json",
+      "photographer": {
+        "label": "@yocamerayo",
+        "url": "https://www.instagram.com/yocamerayo/"
+      }
     }
   ]
 }
